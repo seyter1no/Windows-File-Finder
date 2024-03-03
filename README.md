@@ -11,8 +11,7 @@
 Installation:
 
 ```sh
-git clone https://github.com/seyter1no/Windows-File-Finder.git
-cd Search_file
+git clone https://github.com/seyter1no/Windows-File-Finder.git Search_file
 ```
 ### For build app:
 
