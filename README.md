@@ -29,11 +29,11 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 5. Accept the default number of packages in the toolkit group by pressing the Enter key.
 6. Type Y when prompted to continue the installation.
 7. Add the path to the MinGW-w64 bin folder to the Windows PATH environment variable by following the steps below:
-    1. In the Windows search bar, type Settings to open the Windows Settings window.
-    2. Find the Change environment variables for your account item.
-    3. Under User variables, select the Path variable, and then click Edit.
-    4. Select New and add the MinGW-w64 destination folder you recorded during the installation process to the list. If you used the default settings above, then this will be the path: C:\msys64\ucrt64\bin.
-    5. Select OK to save the updated PATH. You will need to reopen any console windows for the new PATH location to be available.
+    1) In the Windows search bar, type Settings to open the Windows Settings window.
+    2) Find the Change environment variables for your account item.
+    3) Under User variables, select the Path variable, and then click Edit.
+    4) Select New and add the MinGW-w64 destination folder you recorded during the installation process to the list. If you used the default settings above, then this will be the path: C:\msys64\ucrt64\bin.
+    5) Select OK to save the updated PATH. You will need to reopen any console windows for the new PATH location to be available.
 
 If you have installed or already have the MinGW-w64 toolchain, you need to go to the desired disk and folder with the project through the console and write the following command:
 
